@@ -1,4 +1,4 @@
-# Projectional coding
+# Projectional coding (or projection driven development)
 
 1. Code all external calls, contracts, and integrations interactively in original language of involved systems.
 2. Generate F# centric integration code.
@@ -8,11 +8,13 @@
 
 - [Language projection generators for Windows Runtime](https://docs.microsoft.com/en-us/uwp/winrt-cref/winmd-files) to feel it as native as possible, but for broader set of problems
 
-- Absolute opposite of [embbeded DLS](https://martinfowler.com/bliki/InternalDslStyle.html)
+- Absolute `opposite` of [embbeded DLS](https://martinfowler.com/bliki/InternalDslStyle.html)
 
 - Do not create custom languages and parsers as in [Language Workbenchs](https://en.wikipedia.org/wiki/Language_workbench), but use only existing standards; if there is not standard - just do raw F# coding
 
 - Programs are texts, not binary ASTs as in [Intentional Programming](https://en.wikipedia.org/wiki/Intentional_programming)
+
+- `Contract/api first` is subset of `Projectional coding`
 
 # Examples
 
