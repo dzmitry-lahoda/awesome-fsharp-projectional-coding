@@ -85,6 +85,8 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 
 - https://github.com/ctaggart/froto 
 
+- https://github.com/fsprojects/FSharp.Data.GraphQL/
+
 ## Possible patterns
 
 - Avoid mapping native_case or `property name with spaces` to NativeCase during code generation to improve searchability
@@ -93,9 +95,8 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
  
  - generator for ElasticSearch queries
  - F# native GRPC generator
- - GraphQL
  - GC free untyped C bindings with calli
- - Some modelling laguages
+ - Some modelling languages
  
 ## Why now?
 
