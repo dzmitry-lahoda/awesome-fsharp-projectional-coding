@@ -91,6 +91,14 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
  - GC free untyped C bindings with calli
  - Some modelling laguages
  
+## Why now?
+
+- acceptancy of polyglot programming
+- opensource of parsers-compilers-ides
+- ide first language features
+- possibility to extend build and generation via packages
+- unrestanding the need to projection specific for language and richness of  F# for that 
+ 
 ## List of related concepts
 
 - https://en.wikipedia.org/wiki/Grammar-oriented_programming
