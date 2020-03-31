@@ -53,6 +53,12 @@ You have to read configurations in microservice in hosted environment.
 
 We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... (I have several pros and cons for these, need to recall, but proposed solution with compile time configuration still makes sense - software is much harded to break because of miss configuration)
 
+## Problems
+
+- hackatons
+- MVP and PoC
+- console tools
+
 ## Projects
 
 ### Data
@@ -78,6 +84,8 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 ### API
 
 - https://github.com/Szer/GiraffeGenerator - API
+
+- https://github.com/OpenAPITools/openapi-generator 
 
 - https://github.com/fable-compiler/ts2fable - web native APIs
 
