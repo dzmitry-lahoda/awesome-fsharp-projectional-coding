@@ -119,7 +119,9 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 
 ## Possible patterns
 
-- Avoid mapping native_case or `property name with spaces` to NativeCase during code generation to improve searchability
+### Zero mapping approach
+
+- Avoid mapping `native_case` or `property name with spaces` to `NativeCase` during code generation to improve searchability (do not map even when mapping manually)
 
 ### Possible projects
  
