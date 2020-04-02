@@ -1,4 +1,4 @@
-# Projectional coding (or projection driven development)
+# Projectional coding (or projection driven development) in F#
 
 1. Code all external calls, contracts, and integrations interactively in original language of involved systems.
 2. Generate F# centric integration code.
