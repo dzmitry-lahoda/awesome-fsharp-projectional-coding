@@ -8,13 +8,13 @@
 
 - [Language projection generators for Windows Runtime](https://docs.microsoft.com/en-us/uwp/winrt-cref/winmd-files) to feel it as native as possible, but for broader set of problems
 
-- Absolute `opposite` of [embbeded DLS](https://martinfowler.com/bliki/InternalDslStyle.html)
+- Absolute `opposite` of [embbeded DLS](https://martinfowler.com/bliki/InternalDslStyle.html). Event if DSL leads to generation of code like here https://docs.microsoft.com/en-us/ef/core/ or here https://github.com/rflechner/SwaggerForFsharp
 
 - Do not create custom languages and parsers as in [Language Workbenchs](https://en.wikipedia.org/wiki/Language_workbench), but use only existing standards; if there is not standard - just do raw F# coding
 
 - Programs are texts, not binary ASTs as in [Intentional Programming](https://en.wikipedia.org/wiki/Intentional_programming)
 
-- `Contract/api first` and [generator supported code first](https://docs.microsoft.com/en-us/ef/core/) approaches subset of `Projectional coding`. If you cannot generate projection  from `code first` you are not doing `projectional coding`.
+- `Contract/api first` is subset of `Projectional coding`.
 
 # Examples
 
@@ -90,8 +90,6 @@ We could delegate merging work to `Microsoft.Extensions.Configuration`, but ... 
 - https://github.com/fable-compiler/ts2fable - web native APIs
 
 - https://github.com/fsprojects/SwaggerProvider - client generator
-
-- https://github.com/rflechner/SwaggerForFsharp protocol generator from F# Girrafe code declarations
 
 ### Testing
 
