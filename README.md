@@ -1,4 +1,4 @@
-# projectional coding (or projection driven development) in F# 🍵💊
+# projectional coding (or projection driven development) in fsharp 🍵💊
 
 0. Think to make CRUD fast and win Python/TypeScript developers.
 1. Code all external calls, contracts, and integrations interactively in original language of involved systems.
