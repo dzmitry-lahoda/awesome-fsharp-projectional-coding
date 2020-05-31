@@ -153,5 +153,4 @@ Modelling authorization API with SQL(identity source), Gremlin(scopes and right 
 - https://en.wikipedia.org/wiki/Domain-specific_language
 - https://en.wikipedia.org/wiki/Extensible_programming
 - https://arxiv.org/pdf/1904.11254.pdf 
-- https://github.com/jOOQ/jOOQ
-- https://tinkerpop.apache.org/gremlin.html
+- https://github.com/dotnet/csharplang/issues/3525
